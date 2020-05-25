@@ -1,6 +1,6 @@
 const { CommandoClient } = require('discord.js-commando');
 const path = require('path');
-
+const crab = require("./hahanogiveaway.json")
 const client = new CommandoClient({
     commandPrefix: '?',
     owner: '303710498464202762',
@@ -24,4 +24,4 @@ client.once('ready', () => {
 
 client.on('error', console.error);
 
-client.login('Njg4NDI3NzIzMDMwNjU5MTQ4.Xm0yxQ.dS0jyPHPJMOux-l-gbY0HjsVLXM');
+client.login(crab.haha);
